@@ -1,0 +1,65 @@
+{
+  "startLocation": {
+    "name": "Brussels",
+    "lat": 50.8467,
+    "lon": 4.3525,
+    "elevation": 57
+  },
+  "modelChain": true,
+  "modelHeaders": true,
+  "daySlider": {
+    "enabled": true,
+    "days": "all"
+  },
+  "favorites": {
+    "enabled": true,
+    "presets": [
+      {
+        "name": "Großglockner",
+        "lat": 47.0742,
+        "lon": 12.6947,
+        "elevation": 3798
+      },
+      {
+        "name": "Matterhorn",
+        "lat": 45.9763,
+        "lon": 7.6586,
+        "elevation": 4478
+      },
+      {
+        "name": "Mont Blanc",
+        "lat": 45.8326,
+        "lon": 6.8652,
+        "elevation": 4806
+      },
+      {
+        "name": "Gran Paradiso",
+        "lat": 45.5175,
+        "lon": 7.2669,
+        "elevation": 4061
+      }
+    ]
+  },
+  "map": "opentopomap",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "sl",
+    "cs",
+    "nl",
+    "da"
+  ],
+  "defaultLanguage": "en",
+  "legal": {
+    "imprint": {
+      "name": "Bastian Schnitzler",
+      "email": "baschni@gmx.de",
+      "address": [
+        "Cornelius-Fredericks-Straße 56a",
+        "13351 Berlin"
+      ]
+    }
+  }
+}

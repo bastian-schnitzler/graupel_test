@@ -1,0 +1,1 @@
+function e(e){let t=1/0,n=1/0,r=-1/0,i=-1/0;for(let a of e??[])for(let e of a.rings)for(let[a,o]of e)t=Math.min(t,a),r=Math.max(r,a),n=Math.min(n,o),i=Math.max(i,o);return Number.isFinite(t)?[t,n,r,i]:null}function t(e,t){return e+(t!=null&&Number.isFinite(t)&&t>1e3?4:0)}export{e as n,t};
