@@ -1,4 +1,5 @@
 {
+  "domain": "graupel.eu",
   "startLocation": {
     "name": "Brussels",
     "lat": 50.8467,
@@ -37,6 +38,12 @@
         "lat": 45.5175,
         "lon": 7.2669,
         "elevation": 4061
+      },
+      {
+        "name": "Ortler",
+        "lat": 46.5086,
+        "lon": 10.5447,
+        "elevation": 3905
       }
     ]
   },

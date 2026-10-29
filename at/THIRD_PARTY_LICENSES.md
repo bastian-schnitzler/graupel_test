@@ -60,7 +60,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 | Service | What | Terms and attribution |
 |---|---|---|
 | [Open-Meteo.com](https://open-meteo.com/) | weather forecast, place search (geocoding), elevation | data under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the page names Open-Meteo with the license under the meteogram and in Info → About; place names of the geocoding API come from [GeoNames](https://www.geonames.org/) (CC BY 4.0); [terms](https://open-meteo.com/en/terms) |
-| [OpenTopoMap](https://opentopomap.org/) | map tiles (map provider `opentopomap`) | map style © OpenTopoMap ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)), map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (ODbL), elevation SRTM; shown on the map and in Info → About |
+| [OpenTopoMap](https://opentopomap.org/) | map tiles (map provider `opentopomap`) | map style © OpenTopoMap ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)), map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (ODbL), elevation SRTM; credits on the map, SRTM and Leaflet in Info → About |
 | [Maptoolkit](https://www.maptoolkit.org/) | hiking map style, vector tiles, fonts and sprites (map provider `maptoolkit`) | operated by Toursprung GmbH; © Maptoolkit, map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (ODbL); the map shows the attribution of the style and the Maptoolkit logo (at least 24 px, linking to maptoolkit.org) as the provider requires; [privacy](https://www.maptoolkit.org/privacy) |
 | GitHub Pages | hosting | see the privacy policy (Info → Privacy) |
 

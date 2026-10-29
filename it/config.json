@@ -1,9 +1,10 @@
 {
+  "domain": "graupel.it",
   "startLocation": {
-    "name": "Gran Paradiso",
-    "lat": 45.5175,
-    "lon": 7.2669,
-    "elevation": 4061
+    "name": "Ortler",
+    "lat": 46.5086,
+    "lon": 10.5447,
+    "elevation": 3905
   },
   "modelChain": true,
   "modelHeaders": true,
@@ -37,6 +38,12 @@
         "lat": 45.5175,
         "lon": 7.2669,
         "elevation": 4061
+      },
+      {
+        "name": "Ortler",
+        "lat": 46.5086,
+        "lon": 10.5447,
+        "elevation": 3905
       }
     ]
   },
