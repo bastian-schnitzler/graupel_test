@@ -46,15 +46,18 @@
         <a class="domain" href="eu/index.html" target="site" data-domain="eu" title="Startort: Brüssel">graupel.eu</a>
       </nav>
       <span class="meta">
-        Version 0.1.0 · Stand 4c0c5ab ·
-        <a id="open" href="at/index.html" target="_blank" rel="noopener">in eigenem Tab öffnen</a>
+        Version 0.1.0 · Stand 289cab4 ·
+        <a id="open" href="at/index.html" target="_blank" rel="noopener"
+          title="Öffnet die Domain ohne Leiste; dort bieten Chrome und Edge die Installation als App an.">als App testen (eigener Tab)</a>
       </span>
     </header>
     <iframe name="site" title="Graupel-Website" allow="geolocation"></iframe>
     <script>
       // Auswahl der Domain-Konfiguration; die Wahl steht im Hash (#at, #ch, …), so bleibt sie beim Neuladen.
-      // Ohne Hash zeigt der Desktop die erste Domain, ein Telefon (ohne Leiste) eu (REQ-457); ein Hash
-      // gilt auch auf dem Telefon. Die Domain wird nur beim Laden gewählt, nicht beim Drehen oder Ändern der Breite.
+      // Ohne Hash zeigt der Desktop die erste Domain. Ein Telefon (ohne Leiste) wechselt direkt auf die Seite der
+      // Domain, eu oder die aus dem Hash (REQ-457): Sie füllt dann den Bildschirm ohne Rahmen und lässt sich
+      // als App installieren (REQ-519), denn Browser bieten das nur der obersten Seite an. Die Domain wird nur beim
+      // Laden gewählt, nicht beim Drehen oder Ändern der Breite.
       (function () {
         var frame = document.querySelector("iframe");
         var open = document.getElementById("open");
@@ -78,7 +81,12 @@
           });
         });
         var phone = window.matchMedia("(max-width: 639px), (pointer: coarse) and (max-height: 500px)").matches;
-        select(location.hash.slice(1) || (phone ? "eu" : links[0].dataset.domain), true);
+        if (phone) {
+          select(location.hash.slice(1) || "eu", false);
+          location.replace(open.getAttribute("href"));
+          return;
+        }
+        select(location.hash.slice(1) || links[0].dataset.domain, true);
       })();
     </script>
   </body>
