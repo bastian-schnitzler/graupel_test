@@ -6,6 +6,7 @@
     "lon": 12.6947,
     "elevation": 3798
   },
+  "timeZone": "Europe/Vienna",
   "modelChain": true,
   "modelHeaders": true,
   "daySlider": {

@@ -6,6 +6,7 @@
     "lon": 7.6586,
     "elevation": 4478
   },
+  "timeZone": "Europe/Zurich",
   "modelChain": true,
   "modelHeaders": true,
   "daySlider": {

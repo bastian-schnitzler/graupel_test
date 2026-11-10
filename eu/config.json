@@ -6,6 +6,7 @@
     "lon": 4.3525,
     "elevation": 57
   },
+  "timeZone": "Europe/Brussels",
   "modelChain": true,
   "modelHeaders": true,
   "daySlider": {
