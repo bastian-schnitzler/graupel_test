@@ -5,7 +5,7 @@
 Graupel (the website and app in `apps/web`) is Copyright 2026 Bastian Schnitzler and licensed under the GNU General
 Public License v3.0 or later (`GPL-3.0-or-later`, full text in `LICENSE`). Every source file carries the SPDX
 header `SPDX-License-Identifier: GPL-3.0-or-later`. This file names the material of others that the site contains
-or uses and the origin of the code that was taken over. Their licenses apply unchanged next to the GPL; all of them
+or uses. Their licenses apply unchanged next to the GPL; all of them
 are compatible with it (MIT, ISC, BSD, 0BSD are permissive; MPL-2.0 allows distribution under the GPL as a
 Secondary License, section 3.3; CC BY 4.0 covers data, not code).
 
@@ -13,8 +13,7 @@ Secondary License, section 3.3; CC BY 4.0 covers data, not code).
 
 | Part | Source | License there | License here |
 |---|---|---|---|
-| model chain block (`src/regions/ModelChain/`), map picker (`src/regions/LocationPicker/MapDialog.tsx`, `map/`), place search (`src/services/geocoding.ts`) and their ported tests | graupel-old, `react/src` | MPL-2.0 | GPL-3.0-or-later (same copyright holder, DEC-006; also as a Secondary License, MPL-2.0 section 3.3) |
-| logo and favicon (`public/favicon.svg`, `public/icons/`), the Graupel cloud | graupel-old, `graupel/icons/graupel.svg` (own work of the project, reduced by `scripts/generate-icons.mjs`) | GPL-3.0-or-later | GPL-3.0-or-later |
+| logo and favicon (`public/favicon.svg`, `public/icons/`), the Graupel cloud | `scripts/graupel-cloud.svg` (own work of the project, reduced by `scripts/generate-icons.mjs`) | – | GPL-3.0-or-later |
 | line icons (`src/icons/`, `src/regions/LocationPicker/Icon.tsx`) | drawn for this site | – | GPL-3.0-or-later |
 | everything else | written for this site | – | GPL-3.0-or-later |
 
@@ -30,7 +29,7 @@ The site uses no web fonts (system fonts only).
 | `@graupel/model-data` | CC BY 4.0 (`LICENSES/CC-BY-4.0.txt`) and MPL-2.0 | `model_catalogue.json`, `model_domains.json`: derived from [Open-Meteo.com](https://open-meteo.com/) data (CC BY 4.0), modified: selected, combined and processed by graupel-gen. `quantities.json`, `regions.geojson` (own curation on country borders from [Natural Earth](https://www.naturalearthdata.com/), public domain): MPL-2.0 |
 
 The MPL-2.0 files of these packages remain under the MPL-2.0; their source is in the same repository
-(<https://github.com/bastian-schnitzler/graupel-web>, `packages/` and `model-data/`).
+(<https://github.com/bastian-schnitzler/graupel>, `packages/` and `model-data/`).
 
 ### Lucide icons in @graupel/meteogram
 
