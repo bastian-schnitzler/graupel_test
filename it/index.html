@@ -7,6 +7,9 @@
     <!-- Bis an Kamera und Rand (REQ-618): die Seite hält sich selbst frei davon (safe-area, AppLayout.css). -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
+    <!-- Kennung bei Maptoolkit (REQ-698): Origin und Referer tragen nur die Domain der Seite (graupel.eu, …), nie Pfad
+         oder Ort. maptoolkitStyle.ts setzt dieselbe Policy für jede Kartenanfrage. -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <!-- Graupel-Wolke (REQ-424) auf hellblauem Grund (REQ-516); erzeugt mit scripts/generate-icons.mjs. -->
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="../icons/favicon-32.png" type="image/png" sizes="32x32" />
@@ -23,8 +26,8 @@
       } catch (error) {}
     </script>
     <title>Graupel</title>
-    <script type="module" crossorigin src="../assets/index-CVen8UTf.js"></script>
-    <link rel="stylesheet" crossorigin href="../assets/index-yZhio0Pr.css">
+    <script type="module" crossorigin src="../assets/index-DK2pNKS8.js"></script>
+    <link rel="stylesheet" crossorigin href="../assets/index-BCdVbzXH.css">
   </head>
   <body>
     <div id="root"></div>
