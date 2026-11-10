@@ -1,6 +1,6 @@
-# Vorschau der Website (web/S1)
+# Vorschau der Website (web/S4)
 
-Statische Vorschau des fertigen Stands von WEB-S1 (REQ-439, DEC-034), Version 0.4.0, gebaut aus b1a454a.
+Statische Vorschau des aktuellen Stands von WEB-S4 (REQ-439, DEC-034), Version 0.4.0, gebaut aus cb5087b.
 Erzeugt mit `pnpm preview:build` (`apps/web/scripts/build-preview.mjs`); nicht von Hand ändern.
 
 **Öffnen:** `index.html` in diesem Ordner über einen beliebigen statischen Webserver, z. B. im Review-Bereich der
