@@ -1,0 +1,1 @@
+function e(e,t=2e4){let n=`loading`,r=setTimeout(()=>a(),t),i=()=>{r!==void 0&&clearTimeout(r),r=void 0},a=()=>{n===`loading`&&(n=`failed`,i(),e.onError())};return{loaded(){n!==`loaded`&&n!==`stopped`&&(n=`loaded`,i(),e.onLoad())},failed:a,stop(){n=`stopped`,i()}}}function t(e,t){return e+(t!=null&&Number.isFinite(t)&&t>1e3?4:0)}export{e as n,t};
