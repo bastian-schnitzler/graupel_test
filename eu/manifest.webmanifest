@@ -6,8 +6,16 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "theme_color": "#1f6fb2",
-  "background_color": "#dbe8f5",
+  "theme_color": "#f4f6f8",
+  "background_color": "#f4f6f8",
+  "user_preferences": {
+    "color_scheme": {
+      "dark": {
+        "theme_color": "#11161c",
+        "background_color": "#11161c"
+      }
+    }
+  },
   "icons": [
     {
       "src": "../icons/icon-192.png",

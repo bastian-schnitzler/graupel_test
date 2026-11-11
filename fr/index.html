@@ -16,18 +16,28 @@
     <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png" />
     <!-- Installierbar als App (REQ-425); die Symbole unter icons/ liefert das Logo (REQ-424). -->
     <link rel="manifest" href="./manifest.webmanifest" />
-    <meta name="theme-color" content="#1f6fb2" media="(prefers-color-scheme: light)" />
+    <!-- Leisten von Browser und App (Statusleiste, Fläche über der heruntergezogenen Seite) in der Hintergrundfarbe
+         der Seite (REQ-750, --color-bg in tokens.css, PAGE_BACKGROUND in src/state/colorMode.ts). "default": die
+         Statusleiste der installierten App auf iPhone und iPad nimmt theme-color an, die Seite beginnt darunter. -->
+    <meta name="theme-color" content="#f4f6f8" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#11161c" media="(prefers-color-scheme: dark)" />
-    <!-- Farbmodus (REQ-426) vor dem ersten Zeichnen setzen; src/state/colorMode.ts hält ihn danach aktuell. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- Farbmodus (REQ-426) samt theme-color vor dem ersten Zeichnen setzen; src/state/colorMode.ts hält ihn danach
+         aktuell. -->
     <script>
       try {
         var mode = localStorage.getItem("graupel.colorMode");
-        if (mode === "light" || mode === "dark") document.documentElement.dataset.theme = mode;
+        if (mode === "light" || mode === "dark") {
+          document.documentElement.dataset.theme = mode;
+          var metas = document.querySelectorAll('meta[name="theme-color"]');
+          var color = document.querySelector('meta[name="theme-color"][media*="' + mode + '"]').content;
+          for (var i = 0; i < metas.length; i++) metas[i].content = color;
+        }
       } catch (error) {}
     </script>
     <title>Graupel</title>
-    <script type="module" crossorigin src="../assets/index-DWHGMWq4.js"></script>
-    <link rel="stylesheet" crossorigin href="../assets/index-BKkvf-ek.css">
+    <script type="module" crossorigin src="../assets/index-tBkj8Kwj.js"></script>
+    <link rel="stylesheet" crossorigin href="../assets/index-eSYo9gPc.css">
   </head>
   <body>
     <div id="root"></div>
