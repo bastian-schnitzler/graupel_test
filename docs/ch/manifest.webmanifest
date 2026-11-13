@@ -1,7 +1,8 @@
 {
   "name": "Graupel",
   "short_name": "Graupel",
-  "description": "Weather forecasts as meteograms",
+  "description": "Wettervorhersagen als Meteogramme. Abgerufene Wetterdaten bleiben in der Historie: Du kannst sie offline ansehen oder mit neueren Daten vergleichen. Bessere Darstellung auf Telefon und Tablet, ohne die Leisten des Browsers.",
+  "lang": "de",
   "id": "./",
   "start_url": "./",
   "scope": "./",
@@ -44,6 +45,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "../app-screenshots/wide-de.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Meteogramm mit der Vorhersage mehrerer Wettermodelle"
+    },
+    {
+      "src": "../app-screenshots/narrow-de.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Meteogramm auf dem Telefon"
     }
   ]
 }

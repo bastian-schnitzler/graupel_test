@@ -1,7 +1,8 @@
 {
   "name": "Graupel",
   "short_name": "Graupel",
-  "description": "Weather forecasts as meteograms",
+  "description": "Prévisions météo sous forme de météogrammes. Les données météo récupérées restent dans l’historique : vous pouvez les consulter hors ligne ou les comparer à des données plus récentes. Un meilleur affichage sur téléphone et tablette, sans les barres du navigateur.",
+  "lang": "fr",
   "id": "./",
   "start_url": "./",
   "scope": "./",
@@ -44,6 +45,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "../app-screenshots/wide-fr.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Météogramme avec les prévisions de plusieurs modèles météo"
+    },
+    {
+      "src": "../app-screenshots/narrow-fr.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Météogramme sur le téléphone"
     }
   ]
 }
