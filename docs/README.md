@@ -1,6 +1,6 @@
 # Vorschau der Website (web/S5)
 
-Statische Vorschau des aktuellen Stands von WEB-S5 (REQ-439, DEC-034), Version 0.5.0, gebaut aus 5315b61d.
+Statische Vorschau des aktuellen Stands von WEB-S5 (REQ-439, DEC-034), Version 0.5.0, gebaut aus 4ddc6102.
 Erzeugt mit `pnpm preview:build` (`apps/web/scripts/build-preview.mjs`); nicht von Hand ändern.
 
 **Öffnen:** `index.html` in diesem Ordner über einen beliebigen statischen Webserver, z. B. im Review-Bereich der
