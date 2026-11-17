@@ -1,7 +1,7 @@
 {
   "name": "Graupel",
   "short_name": "Graupel",
-  "description": "Previsioni del tempo come meteogrammi. I dati meteorologici scaricati restano nella cronologia: puoi vederli offline o confrontarli con dati più recenti. Una visualizzazione migliore su telefono e tablet, senza le barre del browser.",
+  "description": "Previsioni del tempo come meteogrammi. I dati meteorologici scaricati restano nella cronologia: puoi vederli offline o confrontarli con dati più recenti. Una visualizzazione migliore su telefono e tablet, senza la barra degli indirizzi e di navigazione del browser.",
   "lang": "it",
   "id": "./",
   "start_url": "./",

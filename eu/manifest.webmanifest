@@ -1,7 +1,7 @@
 {
   "name": "Graupel",
   "short_name": "Graupel",
-  "description": "Weather forecasts as meteograms. Weather data you fetch stays in the history: view it offline or compare it with newer data. A better view on phone and tablet, without the browser’s bars.",
+  "description": "Weather forecasts as meteograms. Weather data you fetch stays in the history: view it offline or compare it with newer data. A better view on phone and tablet, without the browser’s address and navigation bars.",
   "lang": "en",
   "id": "./",
   "start_url": "./",

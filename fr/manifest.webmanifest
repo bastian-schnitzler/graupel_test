@@ -1,7 +1,7 @@
 {
   "name": "Graupel",
   "short_name": "Graupel",
-  "description": "Prévisions météo sous forme de météogrammes. Les données météo récupérées restent dans l’historique : vous pouvez les consulter hors ligne ou les comparer à des données plus récentes. Un meilleur affichage sur téléphone et tablette, sans les barres du navigateur.",
+  "description": "Prévisions météo sous forme de météogrammes. Les données météo récupérées restent dans l’historique : vous pouvez les consulter hors ligne ou les comparer à des données plus récentes. Un meilleur affichage sur téléphone et tablette, sans les barres d’adresse et de navigation du navigateur.",
   "lang": "fr",
   "id": "./",
   "start_url": "./",
